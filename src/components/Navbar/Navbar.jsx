@@ -8,12 +8,19 @@ const Navbar = () => {
 
   return (
     <nav className={styles.navbar}>
-      <a className={styles.title} href="/">
-        Portfolio
-      </a>
+      <div className={styles.photo}>
+        <img
+          src={getImageUrl("hero/heroImage.png")}
+          alt="heroImage"
+          className={styles.heroImg}
+        />
+        <a className={styles.title} href="/">
+          Portfolio
+        </a>
+      </div>
       <div className={styles.menu}>
         <img
-          className="{styles.menuBtn}"
+          className={styles.menuBtn}
           src={
             menuOpen
               ? getImageUrl("nav/closeIcon.png")
@@ -43,5 +50,4 @@ const Navbar = () => {
     </nav>
   );
 };
-
 export default Navbar;

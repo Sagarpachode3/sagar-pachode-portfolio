@@ -36,8 +36,14 @@
 
 .description {
   font-size: 30px;
-  font-family: var(--font-roboto);
+  /* font-family: var(--font-roboto); */
   margin-bottom: 52px;
+}
+
+.cntButtons {
+  position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .contactBtn {
@@ -49,11 +55,13 @@
   font-weight: 600;
   padding: 17px 26px;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  margin-right: 50px;
 }
 
 .heroImg {
-  width: 50%;
+  width: 30%;
   z-index: 1;
+  border-radius: 100%;
   animation-name: floating;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -78,5 +86,9 @@
   }
   .content {
     align-items: center;
+  }
+  .cntButtons {
+    flex-direction: column;
+    gap: 25px;
   }
 }
