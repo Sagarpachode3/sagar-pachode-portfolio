@@ -76,14 +76,17 @@
   .content {
     flex-direction: column;
   }
+
   .aboutImage {
     display: none;
   }
+
   .aboutItems {
     margin-top: 29px;
   }
+
   .aboutItem {
-    padding-left: 0%;
+    padding-left: 0;
     padding-right: 0;
   }
 }
