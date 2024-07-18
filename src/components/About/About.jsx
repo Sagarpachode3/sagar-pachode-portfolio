@@ -29,8 +29,8 @@ export const About = () => {
                 development, ensuring seamless integration between front and
                 back end.
                 <br />
-                <br />- <b>Backend Mastery : </b>Strong foundation in server-side
-                development, databases, and API integration.
+                <br />- <b>Backend Mastery : </b>Strong foundation in
+                server-side development, databases, and API integration.
                 <br />
                 <br />- <b>Frontend Excellence :</b> Skilled in creating
                 intuitive and responsive user interfaces that enhance user
