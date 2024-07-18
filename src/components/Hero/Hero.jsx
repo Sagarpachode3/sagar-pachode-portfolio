@@ -1,5 +1,6 @@
 import React from "react";
 
+import resume from "../../data/resume/Sagar_Pachode_Resume(PG-DAC 23).pdf";
 import styles from "./Hero.module.css";
 import { getImageUrl } from "../../utils";
 
@@ -9,8 +10,8 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Sagar Pachode</h1>
         <p className={styles.description}>
-          CDAC Certified professional (PG - DAC)
-          having hands on experience in <b>Frontend</b> and <b>Backend</b> Technologies.
+          CDAC Certified professional (PG - DAC) having hands on experience in{" "}
+          <b>Frontend</b> and <b>Backend</b> Technologies.
           <br />
           Ready to deliver impactful solutions for your organization's success.
           <br />
@@ -24,7 +25,11 @@ export const Hero = () => {
           >
             Contact Me
           </a>
-          <a href="/" className={styles.resumeBtn}>
+          <a
+            href={resume}
+            download="Sagar_Pachode_Resume(PG-DAC 23).pdf"
+            className={styles.resumeBtn}
+          >
             Downlaod Resume
           </a>
         </div>
