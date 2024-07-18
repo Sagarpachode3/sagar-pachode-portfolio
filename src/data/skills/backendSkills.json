@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Java",
+    "imageSrc": "skills/backend/java.png"
+  },
+  {
+    "title": "Spring",
+    "imageSrc": "skills/backend/spring.png"
+  },
+  {
+    "title": "Spring Boot",
+    "imageSrc": "skills/backend/springBoot.png"
+  },
+  {
+    "title": "MySQL",
+    "imageSrc": "skills/backend/mysql.png"
+  }
+]

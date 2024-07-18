@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Linux",
+    "imageSrc": "skills/other/linux.png"
+  },
+  {
+    "title": "Web Development",
+    "imageSrc": "skills/other/webDevelopment.png"
+  },
+  {
+    "title": "Testing",
+    "imageSrc": "skills/other/testing.png"
+  },
+  {
+    "title": "Docker",
+    "imageSrc": "skills/other/docker.png"
+  },
+  {
+    "title": "Kubernetes",
+    "imageSrc": "skills/other/kubernetes.png"
+  },
+  {
+    "title": "Jenkins",
+    "imageSrc": "skills/other/jenkins.png"
+  },
+  {
+    "title": "AWS",
+    "imageSrc": "skills/other/aws.png"
+  }
+]
