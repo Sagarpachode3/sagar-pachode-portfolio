@@ -6,7 +6,12 @@ import { getImageUrl } from "../../utils";
 
 export const Contact = () => {
   return (
-    <footer id="contact" className={styles.container}>
+    <footer
+      id="contact"
+      className={styles.container}
+      data-aos="fade-left"
+      data-aos-duration="1000"
+    >
       <div className={styles.text}>
         <h2>Contact</h2>
         <p>Feel free to reach out!</p>

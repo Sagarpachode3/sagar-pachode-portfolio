@@ -7,7 +7,11 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className={styles.navbar}>
+    <nav
+      className={styles.navbar}
+      data-aos="fade-down"
+      data-aos-duration="1000"
+    >
       <div className={styles.photo}>
         <img
           src={getImageUrl("hero/heroImage.png")}

@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Git",
+    "imageSrc": "skills/tools/git.png"
+  },
+  {
+    "title": "Github",
+    "imageSrc": "skills/tools/github.png"
+  },
+  {
+    "title": "Postman",
+    "imageSrc": "skills/tools/postman.png"
+  },
+  {
+    "title": "Sprint Tool Suit",
+    "imageSrc": "skills/tools/sprintToolSuit.png"
+  },
+  {
+    "title": "VS Code",
+    "imageSrc": "skills/tools/vsCode.png"
+  }
+]
