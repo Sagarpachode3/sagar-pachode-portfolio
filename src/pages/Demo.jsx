@@ -15,7 +15,7 @@ function Demo() {
         </h1>
 
         <div className={styles.content}>
-          <img src={teddy} alt="Thank you png"  className={styles.img}/>
+          <img src={teddy} alt="Thank you png" className={styles.img} />
           <p className={styles.para}>Thank You !!!</p>
         </div>
       </div>
