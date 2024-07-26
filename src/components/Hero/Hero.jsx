@@ -1,6 +1,6 @@
 import React from "react";
 
-import resume from "../../data/resume/Sagar_Pachode_Resume(PG-DAC 23).pdf";
+import resume from "../../data/resume/Sagar_Pachode_Resume(PG-DAC).pdf";
 import styles from "./Hero.module.css";
 import { getImageUrl } from "../../utils";
 
@@ -27,7 +27,7 @@ export const Hero = () => {
           </a>
           <a
             href={resume}
-            download="Sagar_Pachode_Resume(PG-DAC 23).pdf"
+            download="Sagar_Pachode_Resume(PG-DAC).pdf"
             className={styles.resumeBtn}
           >
             Downlaod Resume

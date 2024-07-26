@@ -11,6 +11,9 @@
 }
 
 .image {
+  width: 298px;
+  height: 200px;
+  border-radius: 10px;
   margin-bottom: 26px;
 }
 

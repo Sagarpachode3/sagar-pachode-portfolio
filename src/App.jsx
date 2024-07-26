@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import styles from "./App.module.css";
 import { About } from "./components/About/About";
 import { Contact } from "./components/Contact/Contact";
@@ -8,6 +9,7 @@ import { Projects } from "./components/Projects/Projects";
 import { Skills } from "./components/Skills/Skills";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import DemoPage from "./pages/Demo";
 
 function App() {
   useEffect(() => {
@@ -15,15 +17,26 @@ function App() {
   }, []);
 
   return (
-    <div className={styles.App}>
-      <Navbar />
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
-    </div>
+    <Router>
+      <div className={styles.App}>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/demo" element={<DemoPage />} />
+        </Routes>
+        <Contact />
+      </div>
+    </Router>
   );
 }
+
+const HomePage = () => (
+  <>
+    <Hero />
+    <About />
+    <Skills />
+    <Projects />
+  </>
+);
 
 export default App;

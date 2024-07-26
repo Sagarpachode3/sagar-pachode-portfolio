@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import styles from "./ProjectCard.module.css";
 import { getImageUrl } from "../../utils";
@@ -17,15 +18,15 @@ export const ProjectCard = ({
       <p className={styles.description}>{description}</p>
       <ul className={styles.skills}>
         {skills.map((skill, id) => (
-        <li key={id} className={styles.skill}>
+          <li key={id} className={styles.skill}>
             {skill}
           </li>
         ))}
       </ul>
       <div className={styles.links}>
-        <a href={demo} className={styles.link}>
+        <Link to="/demo" className={styles.link}>
           Demo
-        </a>
+        </Link>
         <a href={source} className={styles.link}>
           Source
         </a>

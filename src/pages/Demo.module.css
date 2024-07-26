@@ -1,0 +1,33 @@
+@import "../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 70px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.span {
+  color: yellow;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 61px;
+}
+
+.heading {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.img {
+  border: 2px solid yellow;
+}
+.para {
+  margin-left: 50px;
+  font-size: 30px;
+  font-weight: 700;
+}
