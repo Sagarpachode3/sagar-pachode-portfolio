@@ -1,42 +1,42 @@
 [
   {
-    "title": "Turf Time",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "title": "The Dugout",
+    "imageSrc": "projects/turfTime.png",
+    "description": "Online Turf Booking that offers a seamless solution for managing reservations, event scheduling, slot bookings.",
     "skills": ["Java", "Spring Boot", "React", "MySQL"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/Sagarpachode3/TurfBookingSystem"
   },
   {
-    "title": "Blogo",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["Java", "Spring Boot", "React", "MySQL"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  },
-  {
-    "title": "Blogo",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["Java", "Spring Boot", "React", "MySQL"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  },
-  {
-    "title": "Blogo",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["Java", "Spring Boot", "React", "MySQL"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Personal Portfolio",
+    "imageSrc": "projects/personalPortfolio.png",
+    "description": "Virtual portfolio is made to demonstrate frontend skills using various important points of React Js. ",
+    "skills": ["HTML5", "CSS3", "React"],
+    "demo": "/",
+    "source": "https://github.com/Sagarpachode3/sagar-pachode-portfolio"
   },
   {
     "title": "Adopt Me !",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["HTML5", "CSS3", "React", "Node"],
+    "imageSrc": "projects/adoptMe.png",
+    "description": "a pet adoption web app built with React! This project aims to connect potential pet adopters with lovable animals.",
+    "skills": ["HTML5", "CSS3", "React"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/Sagarpachode3/Adopt-Me-ReactJs"
+  },
+  {
+    "title": "Blogo",
+    "imageSrc": "projects/blogo.png",
+    "description": "A simple blogging App for reading your favourite blogs. You can register and login your own blog also.",
+    "skills": ["Java", "Spring Boot", "React", "MySQL"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/Sagarpachode3/blogging-app-frontend"
+  },
+  {
+    "title": "Word Wonders",
+    "imageSrc": "projects/wordWonders.png",
+    "description": "A mini project to test your gussing using HTML, CSS. Used external API for demonstration. Shows dynamic effect after win",
+    "skills": ["HTML5", "CSS3"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/Sagarpachode3/Word_Wonders"
   }
 ]
