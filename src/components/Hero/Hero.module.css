@@ -41,9 +41,15 @@
 }
 
 .cntButtons {
-  position: relative;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  gap: 1rem;
+}
+
+.cntButtons > * {
+  min-width: fit-content;
+  flex: 1;
 }
 
 .contactBtn {
@@ -58,7 +64,7 @@
   margin-right: 50px;
 }
 
-.resumeBtn{
+.resumeBtn {
   text-decoration: none;
   /* background-color: var(--color-primary); */
   color: yellow;
@@ -97,6 +103,16 @@
   .container {
     flex-direction: column-reverse;
   }
+  .title {
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: 600;
+  }
+
+.description{
+  font-size: 25px;
+}
+
   .content {
     align-items: center;
   }
