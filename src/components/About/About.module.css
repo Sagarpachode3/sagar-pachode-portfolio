@@ -80,6 +80,10 @@
     flex-direction: column;
   }
 
+  .aboutItem p {
+    font-size: 18px;
+  }
+
   .aboutImage {
     display: none;
   }
